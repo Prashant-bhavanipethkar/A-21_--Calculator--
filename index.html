@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+
+    
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+        .body{
+           background-color: rgb(245, 237, 237);
+           height: 450px;
+           width: 320px;
+           margin: 30px auto;
+           border-radius: 20px;
+           border: solid 3px  rgb(70, 102, 146);
+        }
+
+        .screen{
+            text-align: right;
+            font-family: orbitron;
+            width: 250px;
+            font-size: 25px;
+            border-radius: 7px;
+            border: none;
+            padding: 5px;
+            margin: 60px 10px 50px 30px;
+            background-color: rgb(70, 102, 146);
+            color: white;
+        
+        
+        }
+
+        .btn-container{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            margin-left: 10px;
+            padding: 10px;
+            height: 200px;
+            width: 170px;
+            
+
+        }
+
+        .btn{
+            height: 45px;
+            width: 45px;
+            border: none;
+            background-color: rgb(70, 102, 146);
+            border-radius: 50%;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+            
+            
+        }
+
+        .btn:hover{
+            box-shadow: 0px 0px 2px 2px rgb(141, 183, 241);
+            color:  rgb(70, 102, 146);
+            background-color: white;
+        }
+
+        .btn-container2{
+            width: 110px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            
+        }
+
+        .btn-plus{
+            height: 100px;
+            width: 45px;
+            border: none;
+            background-color: rgb(70, 102, 146);
+            border-radius: 30px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+        }
+
+        .btn-plus:hover{
+            box-shadow: 0px 0px 2px 2px rgb(141, 183, 241);
+            color:  rgb(70, 102, 146);
+            background-color: white;
+        }
+
+        .btn-equals{
+            height: 45px;
+            width: 100px;
+            border: none;
+            background-color: rgb(70, 102, 146);
+            border-radius: 30px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+        }
+
+        .btn-x{
+            height: 100px;
+            width: 45px;
+            border: none;
+            background-color: rgb(70, 102, 146);
+            border-radius: 30px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+        }
+
+        .btn-x:hover{
+            box-shadow: 0px 0px 2px 2px rgb(141, 183, 241);
+            color:  rgb(70, 102, 146);
+            background-color: white;
+        }
+
+        .btn-{
+            height: 45px;
+            width: 45px;
+            border: none;
+            background-color: #1a8cff;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+             
+        }
+
+
+        .btn-equals:hover{
+            box-shadow: 0px 0px 2px 2px rgb(141, 183, 241);
+            color:  rgb(70, 102, 146);
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <input type="text" class="screen" value="0">
+        <div class="btn-container">
+            <button class="btn">0</button>
+            <button class="btn">1</button>
+            <button class="btn">4</button>
+            <button class="btn">7</button>
+
+            <button class="btn">.</button>
+            <button class="btn">2</button>
+            <button class="btn">5</button>
+            <button class="btn">8</button>
+
+            <button class="btn">C</button>
+            <button class="btn">3</button>
+            <button class="btn">6</button>
+            <button class="btn">9</button>
+
+        <div class="btn-container2">
+                <button class="btn -">-</button>
+                <button class="btn /">/</button>
+                <button class="btn-plus">+</button>
+                <button class="btn-x">x</button>
+                <button class="btn-equals">=</button>
+                
+            </div>   
+    </div>
+</body>
+</html>
